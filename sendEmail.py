@@ -5,7 +5,7 @@ import http.client
 import json
 import logging
 
-sender='antollukas6@gmail.com'
+sender='email@gmail.com'
 password=os.environ.get("e_password")
 receivers=os.environ.get("SKIT_ALERT_EMAIL")
 smtpHost=os.environ.get("smtpHost")
